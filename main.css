@@ -1,0 +1,80 @@
+body {
+  font-size: 16px;
+  line-height: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2 {
+  font-family: palatino linotype, serif;
+  line-height: 1.2em;
+}
+
+.header_logo {
+  width: 100%;
+  height: 100%;
+}
+
+/* Text on logo */
+
+.header_inner {
+  position: relative;
+  text-align: center;
+  color: #F3F3F3;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered_tuning {
+  font-family: palatino linotype, serif;
+}
+
+.bio {
+  display: none;
+  font-size: 13px;
+}
+
+/* Projects block */
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectsHeader {
+  width: 100%;
+  text-align: center;
+}
+
+/* Animal Card */
+
+.animal_card {
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Portfolio Site */
+
+.portfolio_site {
+  width: 100%;
+  text-align: center;
+}
+
+/* Hometown Site */
+
+.hometown_site {
+  width: 100%;
+  text-align: center;
+}
