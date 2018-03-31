@@ -17,8 +17,18 @@
   }
 }
 
+@media screen and (min-width: 700px){
+  .centered_tuning {
+    font-size: 18px;
+  }
+
+  .bio{
+    font-size: 15px;
+  }
+}
+
 @media screen and (min-width: 850px) {
-  body {
+  main {
     width: 850px;
     margin-left: auto;
     margin-right: auto;
@@ -26,5 +36,12 @@
 
   .animal_card, .hometown_site, .portfolio_site {
     width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .centered_tuning {
+    font-size: 20px;
+    letter-spacing: 15px;
   }
 }
